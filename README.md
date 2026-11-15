@@ -42,25 +42,6 @@ The "Why it works" lines were checked against the papers each entry cites. The d
 - [GSAP](https://gsap.com/) for the animation
 - [Inter](https://rsms.me/inter/) (variable), self-hosted through Fontsource
 
-## Run it locally
-
-You need Node.js 20.19 or newer.
-
-```bash
-npm install
-npm run dev
-```
-
-To make a production build, which goes in the `dist` folder:
-
-```bash
-npm run build
-```
-
-## Deploying
-
-The site is published with GitHub Pages. The workflow in `.github/workflows/deploy.yml` builds it and publishes it each time a change reaches the `main` branch.
-
 ## Images
 
 The product photos in some demos were generated with an AI image tool.
