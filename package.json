@@ -1,0 +1,18 @@
+{
+  "name": "dark-ux-archive",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "gsap": "^3.15.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
