@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 
-// Brand: Nord Weekly, a made-up newsletter. Based on the example in Gray et al.: a site that
+// Brand: Weekly Digest, a made-up newsletter. Based on the example in Gray et al.: a site that
 // made people agree to let it sell their information before it would let them go ahead.
 // Here the thing you are trying to do is sign up.
 
@@ -24,8 +24,8 @@ export default {
     // Unfair: the box is compulsory, and says so only after you try to carry on without it.
     // Fair: the same box is optional and starts unticked.
     const agree = unfair
-      ? '<label class="tq js-row"><input type="checkbox" class="js-box"><span>I agree to Nord Weekly sharing my details with its partners.<b class="req">*</b><b class="req js-req" style="display:none"> (required)</b></span></label>'
-      : '<label class="tq js-row"><input type="checkbox" class="js-box"><span>I agree to Nord Weekly sharing my details with its partners. <span class="optn">(optional)</span></span></label>';
+      ? '<label class="tq js-row"><input type="checkbox" class="js-box"><span>I agree to Weekly Digest sharing my details with its partners.<b class="req">*</b><b class="req js-req" style="display:none"> (required)</b></span></label>'
+      : '<label class="tq js-row"><input type="checkbox" class="js-box"><span>I agree to Weekly Digest sharing my details with its partners. <span class="optn">(optional)</span></span></label>';
     return '<div class="scr on" data-s="s1"><div class="card">' +
         '<h2 class="c-title">Create your account</h2>' +
         '<input class="c-input js-email" type="email" placeholder="Email address" aria-label="Email address" autocomplete="off">' + agree +

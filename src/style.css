@@ -1,7 +1,7 @@
 :root{
   --surface:#fbfbf9;   /* cards, inputs, buttons: a soft off-white, never pure white */
   --on-brand:#f8f9f7;  /* text on coloured buttons and banners */
-  --paper:#f9faf8;
+  --paper:#f7f7f9;
   --ink:#111312;
   --mute:#5b605c;
   --rule:#d7dad6;
@@ -64,7 +64,7 @@ button{font-family:inherit}
 .nav a{position:relative}
 .nav a[aria-current="true"]{color:var(--ink);font-weight:500}
 /* The blue dot: part of the current link, so it can never drift away from it. */
-.nav a[aria-current="true"]::before,.brand[aria-current="true"]::before{content:"";position:absolute;left:-14px;top:50%;width:6px;height:6px;margin-top:-3px;border-radius:50%;background:var(--accent);animation:dot-in .28s ease-out}
+.nav a[aria-current="true"]::before,.brand[aria-current="true"]::before{content:"";position:absolute;left:-14px;top:50%;width:6px;height:6px;margin-top:-3px;border-radius:50%;background:var(--bad);animation:dot-in .28s ease-out}
 @keyframes dot-in{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
 @media (prefers-reduced-motion: reduce){.nav a[aria-current="true"]::before,.brand[aria-current="true"]::before{animation:none}}
 .side-foot{display:flex;align-items:center;justify-content:flex-start;gap:12px;margin:16px 0 0;font-size:var(--fs-small);color:var(--mute)}
@@ -343,7 +343,7 @@ dl.facts{margin:0 0 24px;border-top:1px solid var(--rule)}
   .to-top{right:16px;bottom:16px}
   .nav a{padding-left:0;padding-top:9px;padding-bottom:9px}
   .nav .group{margin-left:0}
-  .nav a[aria-current="true"]::before{content:"";position:static;display:inline-block;width:6px;height:6px;margin:0 12px 0 0;border-radius:50%;background:var(--accent);vertical-align:middle}
+  .nav a[aria-current="true"]::before{content:"";position:static;display:inline-block;width:6px;height:6px;margin:0 12px 0 0;border-radius:50%;background:var(--bad);vertical-align:middle}
   .main{padding:8px 16px 96px}
   .entry{scroll-margin-top:60px}
   .facts .row{grid-template-columns:100px minmax(0,1fr)}
@@ -358,7 +358,7 @@ dl.facts{margin:0 0 24px;border-top:1px solid var(--rule)}
 .pinfo .c-title{margin-top:2px}
 .pinfo .b-big{margin-top:0}
 
-/* Pay to skip: a small made-up noughts and crosses game (Crossy) */
+/* Pay to skip: a small made-up noughts and crosses game (Noughts) */
 .gm{position:relative;width:min(340px,calc(100% - 32px));padding:16px 20px 16px;border-radius:18px;overflow:hidden;color:#fff;background:linear-gradient(180deg,#2b2f63,#1b1e44);box-shadow:0 10px 30px rgba(20,22,60,.35)}
 .gm-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:18px;font-weight:800;letter-spacing:-.01em}
 .gm-top em{font-style:normal;font-size:13px;font-weight:700;color:#c9cdf2}

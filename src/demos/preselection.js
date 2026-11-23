@@ -1,4 +1,4 @@
-// Brand: Ember Roasters, a made-up coffee shop.
+// Brand: Coffee Roasters, a made-up coffee shop.
 
 const BASE = 18;
 const OPTS = [

@@ -1,4 +1,4 @@
-// Brand: Plateful, a made-up food delivery app.
+// Brand: Takeaway App, a made-up food delivery app.
 
 const money = function (n) { return '£' + n.toFixed(2); };
 

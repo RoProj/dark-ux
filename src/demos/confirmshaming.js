@@ -1,6 +1,6 @@
 const HEAD =
   '<h2 class="c-title">Get 10% off your first order</h2>' +
-  '<p class="c-sub">Join the Ember Roasters list for deals and new beans.</p>' +
+  '<p class="c-sub">Join the Coffee Roasters list for deals and new beans.</p>' +
   '<input class="c-input js-email" type="email" placeholder="Email address" aria-label="Email address" autocomplete="off">';
 
 const END = {

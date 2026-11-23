@@ -1,6 +1,6 @@
 import jeans from '../assets/black-jeans.webp';
 
-// Brand: Printly, a made-up poster shop.
+// Brand: Poster Shop, a made-up poster shop.
 
 export default {
   brand: '#7c3aed',

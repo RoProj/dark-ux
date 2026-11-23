@@ -1,10 +1,10 @@
-// Brand: Stagedoor, a made-up ticket seller. The venue is made up too.
+// Brand: Theatre Tickets, a made-up ticket seller. The venue is made up too.
 
 const money = function (n) { return '£' + n.toFixed(2); };
 const BASE = 60, PROTECT = 7.99, QUEUE = 4.5;
 
 const ticketRow = '<div class="line"><span>2 × Stalls ticket</span><span>' + money(BASE) + '</span></div>';
-const sub = '<p class="c-sub" style="margin-bottom:8px">The Brindlemoor Playhouse, Sat 22 Nov</p>';
+const sub = '<p class="c-sub" style="margin-bottom:8px">The City Theatre, Sat 22 Nov</p>';
 
 function extra(cls, name, price) {
   return '<div class="line ' + cls + '"><span>' + name + ' <button class="tiny js-rm" type="button">Remove</button></span><span>' + money(price) + '</span></div>';

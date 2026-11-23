@@ -1,4 +1,4 @@
-// Brand: Postbox, a made-up email app.
+// Brand: Mail App, a made-up email app.
 
 function finish(c) {
   const on = c.q('.js-box').checked;
@@ -16,7 +16,7 @@ export default {
       ? 'Tick this box if you do not want to not receive offers from our partners.'
       : 'Send me offers from our partners.';
     return '<div class="scr on" data-s="s1"><div class="card">' +
-        '<h2 class="c-title">Almost done</h2><p class="c-sub">Finish creating your Postbox account.</p>' +
+        '<h2 class="c-title">Almost done</h2><p class="c-sub">Finish creating your account.</p>' +
         '<input class="c-input" value="you@example.com" readonly aria-label="Email address">' +
         '<label class="tq js-row"><input type="checkbox" class="js-box"><span>' + label + '</span></label>' +
         '<button class="b-big js-finish" type="button">Finish</button>' +

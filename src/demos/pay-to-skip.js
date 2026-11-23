@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 
-// Brand: Crossy, a made-up noughts and crosses game. Based on Gray et al.'s "gamification":
+// Brand: Noughts, a made-up noughts and crosses game. Based on Gray et al.'s "gamification":
 // progress that is meant to be earned by playing, or bought. You lose a game while on a streak, and
 // the unfair version sells the streak back to you. The fair one just lets you play again.
 

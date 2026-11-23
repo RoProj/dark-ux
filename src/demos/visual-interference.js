@@ -1,4 +1,4 @@
-// Brand: Orchard, a made-up recipe blog.
+// Brand: Recipe Club, a made-up recipe blog.
 
 function decide(c, choice) {
   const cb = c.q('.js-cb'), toast = c.q('.js-toast');

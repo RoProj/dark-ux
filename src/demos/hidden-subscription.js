@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 
-// Brand: Forkly, a made-up food delivery app. The Plus offer is the trap.
+// Brand: Food Delivery, a made-up food delivery app. The Plus offer is the trap.
 
 const money = function (n) { return '£' + n.toFixed(2); };
 const FOOD = 16.75, SERVICE = 1.99, DELIVERY = 2.49;

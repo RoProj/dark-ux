@@ -1,6 +1,6 @@
 import bouquet from '../assets/spring-bouquet.webp';
 
-// Brand: Petal & Co, a made-up flower shop. Based on Mathur et al.'s "pressured selling":
+// Brand: Flower Shop, a made-up flower shop. Based on Mathur et al.'s "pressured selling":
 // the largest, most expensive bouquet is selected by default.
 
 const SIZES = [

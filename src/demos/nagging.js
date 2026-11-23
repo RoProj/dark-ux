@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 
-// Brand: Kettle, a made-up recipe site.
+// Brand: Recipe Box, a made-up recipe site.
 
 const ASKS = [
   ['Get new recipes in your notifications?', ''],

@@ -1,6 +1,6 @@
 import shoes from '../assets/derby-shoes.webp';
 
-// Brand: Stride, a made-up shoe shop.
+// Brand: Shoe Shop, a made-up shoe shop.
 
 const REAL = {
   '7': ['In stock', false],

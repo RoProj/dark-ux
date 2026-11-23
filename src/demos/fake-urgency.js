@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import shirt from '../assets/linen-overshirt.webp';
 
-// Brand: Nord, a made-up clothing shop.
+// Brand: Linen Store, a made-up clothing shop.
 
 const fmt = function (s) {
   s = Math.max(0, Math.ceil(s));

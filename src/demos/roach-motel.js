@@ -1,4 +1,4 @@
-// Brand: Lumen, a made-up music app. Buttons carry data attributes so the
+// Brand: Music Stream, a made-up music app. Buttons carry data attributes so the
 // autoplay and the user's own clicks run the same code (ctx.go).
 
 // A strip across the top of each screen: which phase this is, and how far in.
@@ -14,7 +14,7 @@ function scr(id, inner, on) {
 }
 
 const JOIN =
-  scr('s1', reg('Step 1') + '<h2 class="c-title">Lumen Premium</h2><p class="c-sub">No ads. Offline listening. £12 a month.</p>' +
+  scr('s1', reg('Step 1') + '<h2 class="c-title">Music Stream Premium</h2><p class="c-sub">No ads. Offline listening. £12 a month.</p>' +
     '<button class="b-big" type="button" data-path data-go="s2" data-count="0">Subscribe</button>', true) +
   scr('s2', reg('Step 2') + '<h2 class="c-title">Confirm payment</h2><p class="c-sub">Card ending 4242. £12.00 a month.</p>' +
     '<button class="b-big" type="button" data-path data-go="s3" data-count="0">Confirm</button>');

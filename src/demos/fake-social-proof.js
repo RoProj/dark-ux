@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 
-// Brand: Harbour Inn, a made-up hotel booking page.
+// Brand: Seaside Hotel, a made-up hotel booking page.
 
 const VIEWS = [14, 12, 15, 13];
 // A score with one gold star next to it.
@@ -16,7 +16,7 @@ export default {
       ? '<p class="live"><b class="js-views">14</b> people are looking at this right now</p>'
       : '<p class="live">Rated 4.6 from 318 verified reviews. <button class="nl js-reviews" type="button" data-go="s2">Read reviews</button></p>';
     return '<div class="scr on" data-s="s1"><div class="card wide">' +
-        '<h2 class="c-title">Harbour Inn, Whitby</h2>' +
+        '<h2 class="c-title">Seaside Hotel</h2>' +
         '<p class="c-sub">Sea view double, breakfast included.</p>' +
         '<p class="price" style="margin:10px 0 0"><b>£89</b> a night</p>' + proof +
         '<button class="b-big js-book" type="button" data-go="s3">Book now</button>' +

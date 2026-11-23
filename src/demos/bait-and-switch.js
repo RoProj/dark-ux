@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 
-// Brand: Tunebox, a made-up music app. Bait and switch: you set out to cancel, and something else happens.
+// Brand: Music Player, a made-up music app. Bait and switch: you set out to cancel, and something else happens.
 // A popup asks whether to cancel the subscription and both buttons say "Cancel". The big red one cancels the cancelling.
 
 const KEPT = 'Subscription not cancelled. Thanks for staying with us!';
