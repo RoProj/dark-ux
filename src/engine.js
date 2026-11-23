@@ -7,7 +7,7 @@ const ICON_OK = '<svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill
 const ICON_REPLAY = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>';
 const ICON_PAUSE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>';
 const ICON_PLAY = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10-6.5a1 1 0 0 0 0-1.72l-10-6.5A1 1 0 0 0 8 5.5z"/></svg>';
-const CURSOR ='<svg width="22" height="24" viewBox="0 0 22 24"><path d="M4 2 L4 20 L9 15.5 L12.5 22 L15 21 L11.6 14.6 L18 14 Z" fill="#111312" stroke="#f8f9f7" stroke-width="1.5" stroke-linejoin="round"/></svg>';
+const CURSOR ='<svg width="22" height="24" viewBox="0 0 22 24"><path d="M4 2 L4 20 L9 15.5 L12.5 22 L15 21 L11.6 14.6 L18 14 Z" fill="#121215" stroke="#f8f8fa" stroke-width="1.5" stroke-linejoin="round"/></svg>';
 
 /**
  * Mounts one demo (frame, toggle, replay, caption, meters) into `host`.
